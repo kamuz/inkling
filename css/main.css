@@ -1,0 +1,149 @@
+.bg--superhero {
+    background-image: url(https://discover.inkling.com/rs/054-VTC-941/images/INS_1%204204x2600.jpg);
+}
+
+.cls-1 {
+    fill: #077db7;
+}
+
+.cls-2 {
+    fill: #009c9e;
+}
+
+.cls-3 {
+    fill: #60b046;
+}
+
+.cls-4 {
+    fill: #fff;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.contained-small-top{
+    padding: 150px 100px;
+}
+
+#headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+#formtitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.social-share {
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.social-share-icon {
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 0px 7px;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+}
+
+.call-to-action {
+    background: -moz-linear-gradient(left, #d8edf6 0%, #d9e1cd 100%);
+    background: -webkit-linear-gradient(left, #d8edf6 0%, #d9e1cd 100%);
+    background: linear-gradient(to right, #d8edf6 0%, #d9e1cd 100%);
+}
+
+#speaker-section{
+    background-color: #F8F8F8;
+}
+
+#speaker-section .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 50px;
+    padding: 50px 100px;
+}
+
+#speakerName{
+    font-size: 26px;
+}
+
+#speakers-three{
+    background-color: #474747;
+    color: #fff;
+}
+
+#speakers-three h3{
+    margin-bottom: 10px;
+}
+
+#speakers-three .icon-block,
+#speakers-two .icon-block{
+    margin-bottom: 30px;
+}
+
+#speakers-two{
+    background-color: #067DB7;
+    text-align: center;
+    color: #fff;
+}
+
+@media(max-width: 960px){
+
+}
+
+@media(max-width: 768px){
+
+    .container,
+    #speaker-section .container{
+        text-align: center;
+        padding: 50px 25px;
+    }
+
+    .contained-small-top{
+        padding: 150px 50px 100px 50px;
+    }
+
+    .two-column,
+    #speaker-section .container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-section {
+        padding: 30px 25px !important;
+    }
+
+}
+
+@media(max-width: 568px){
+
+    .hero__basic .hero__rule{
+        margin: 0;
+    }
+
+}
+
+@media(max-width: 480px){
+
+}
